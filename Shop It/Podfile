@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'Shop It' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+
+
+  # Pods for Shop It
+
+pod 'IQKeyboardManager'
+
+  target 'Shop ItTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Shop ItUITests' do
+    # Pods for testing
+  end
+
+end
